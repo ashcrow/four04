@@ -19,8 +19,7 @@ is an array of response code and file on the file system to return.
 
 Example
 ~~~~~~~
-
-```json
+```JSON
 {
     "SANS_USERID": "00000000",
     "SANS_KEY": "123456789012345678901234567890",
@@ -47,7 +46,8 @@ to 127.0.0.1:8080.
 
 Nginx Example
 ~~~~~~~~~~~~~
-```
+
+```Nginx
 location / {
     proxy_pass http://127.0.0.1:8080;
 }
