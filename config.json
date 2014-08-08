@@ -1,0 +1,10 @@
+{
+    "SANS_USERID": "",
+    "SANS_KEY": "",
+    "IP_MASK": "0xffffffff",
+    "ENDPOINT": "https://isc.sans.edu/weblogs/404project.html?id=%s&version=2",
+    "ROUTES": {
+        "": ["503 Service Unavailable", "pages/503.html"],
+        "/test": ["200 OK", "pages/test.html"]
+    }
+}
